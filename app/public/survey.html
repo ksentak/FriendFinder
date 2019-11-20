@@ -22,595 +22,196 @@
     </div>
 
     <div class="container">
+        <div class="col-sm-10 offset-1">
+            <form>
+                <!-- Name Input -->
+                <div class="form-group">
+                    <label for="nameInput">Please enter your name:</label>
+                    <input type="name" class="form-control" id="name" placeholder="Your name here...">
+                </div>
 
-        <!-- Question 1 -->
-        <div class="row">
-            <div class="col-sm-10 offset-1 text-center">
-                <form>
-                    <div class="form-group">
-                        <label for="nameInput">Please enter your name:</label>
-                        <input type="name" class="form-control" id="name"
-                            placeholder="Your name here...">
-                    </div>
+                <!-- Image Upload -->
+                <div class="form-group">
+                    <label for="Photo Upload">Please upload a photo of yourself:</label>
+                    <input type="file" class="form-control-file" id="photo">
+                </div>
 
-                    <div class="custom-file">
-                        <input type="file" class="custom-file-input" id="imageUpload">
-                        <label class="custom-file-label" for="customFile">Please upload an image of yourself</label>
-                    </div>
+                <!-- Question 1 -->
+                <div class="form-group">
+                    <label for="q1">Question 1</label>
+                    <select class="form-control" id="question1">
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                        <option>6</option>
+                        <option>7</option>
+                        <option>8</option>
+                        <option>9</option>
+                        <option>10</option>
+                    </select>
+                </div>
 
-                    <div class="question">Question 1...</div>
-                    <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="A1" id="Q1_1" value="1">
-                        <label class="form-checkquestion1">1
-                        </label>
-                    </div>
-                    <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="A2" id="Q1_2" value="2">
-                        <label class="form-check-label" for="question1">2
-                        </label>
-                    </div>
-                    <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="A3" id="Q1_3" value="3">
-                        <label class="form-check-label" for="question1">3
-                        </label>
-                    </div>
-                    <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="A4" id="Q1_4" value="4">
-                        <label class="form-check-label" for="question1">4
-                        </label>
-                    </div>
-                    <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="A5" id="Q1_5" value="5">
-                        <label class="form-check-label" for="question1">5
-                        </label>
-                    </div>
-                    <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="A6" id="Q1_6" value="6">
-                        <label class="form-check-label" for="question1">6
-                        </label>
-                    </div>
-                    <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="A7" id="Q1_7" value="7">
-                        <label class="form-check-label" for="question1">7
-                        </label>
-                    </div>
-                    <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="A8" id="Q1_8" value="8">
-                        <label class="form-check-label" for="question1">8
-                        </label>
-                    </div>
-                    <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="A9" id="Q1_9" value="9">
-                        <label class="form-check-label" for="question1">9
-                        </label>
-                    </div>
-                    <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="A10" id="Q1_10" value="10">
-                        <label class="form-check-label" for="question1">10
-                        </label>
-                    </div>
-            </div>
+                <!-- Question 2 -->
+                <div class="form-group">
+                    <label for="q2">Question 2</label>
+                    <select class="form-control" id="question2">
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                        <option>6</option>
+                        <option>7</option>
+                        <option>8</option>
+                        <option>9</option>
+                        <option>10</option>
+                    </select>
+                </div>
+
+                <!-- Question 3 -->
+                <div class="form-group">
+                    <label for="q3">Question 3</label>
+                    <select class="form-control" id="question3">
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                        <option>6</option>
+                        <option>7</option>
+                        <option>8</option>
+                        <option>9</option>
+                        <option>10</option>
+                    </select>
+                </div>
+
+                <!-- Question 4 -->
+                <div class="form-group">
+                    <label for="q4">Question 4</label>
+                    <select class="form-control" id="question4">
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                        <option>6</option>
+                        <option>7</option>
+                        <option>8</option>
+                        <option>9</option>
+                        <option>10</option>
+                    </select>
+                </div>
+
+                <!-- Question 5 -->
+                <div class="form-group">
+                    <label for="q5">Question 5</label>
+                    <select class="form-control" id="question5">
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                        <option>6</option>
+                        <option>7</option>
+                        <option>8</option>
+                        <option>9</option>
+                        <option>10</option>
+                    </select>
+                </div>
+
+                <!-- Question 6 -->
+                <div class="form-group">
+                    <label for="q6">Question 6</label>
+                    <select class="form-control" id="question6">
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                        <option>6</option>
+                        <option>7</option>
+                        <option>8</option>
+                        <option>9</option>
+                        <option>10</option>
+                    </select>
+                </div>
+
+                <!-- Question 7 -->
+                <div class="form-group">
+                    <label for="q7">Question 7</label>
+                    <select class="form-control" id="question7">
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                        <option>6</option>
+                        <option>7</option>
+                        <option>8</option>
+                        <option>9</option>
+                        <option>10</option>
+                    </select>
+                </div>
+
+                <!-- Question 8 -->
+                <div class="form-group">
+                    <label for="q8">Question 8</label>
+                    <select class="form-control" id="question8">
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                        <option>6</option>
+                        <option>7</option>
+                        <option>8</option>
+                        <option>9</option>
+                        <option>10</option>
+                    </select>
+                </div>
+
+                <!-- Question 9 -->
+                <div class="form-group">
+                    <label for="q9">Question 9</label>
+                    <select class="form-control" id="question9">
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                        <option>6</option>
+                        <option>7</option>
+                        <option>8</option>
+                        <option>9</option>
+                        <option>10</option>
+                    </select>
+                </div>
+
+                <!-- Question 10 -->
+                <div class="form-group">
+                    <label for="q10">Question 10</label>
+                    <select class="form-control" id="question10">
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                        <option>6</option>
+                        <option>7</option>
+                        <option>8</option>
+                        <option>9</option>
+                        <option>10</option>
+                    </select>
+                </div>
+
+                <div class="text-center">
+                    <button id="submitBtn" type="submit" class="btn btn-primary btn-lg">Submit</button>
+                </div>
+
+            </form>
         </div>
-
-        <!-- Question 2 -->
-        <div class="row">
-            <div class="col-sm-12 text-center">
-                <div class="question">Question 2...</div>
-                <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" name="RadioQ1" id="Q2_1" value="1">
-                    <label class="form-checkquestion2">1
-                    </label>
-                </div>
-                <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" name="RadioQ1" id="Q2_2" value="2">
-                    <label class="form-check-label" for="question2">2
-                    </label>
-                </div>
-                <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" name="RadioQ1" id="Q2_3" value="3">
-                    <label class="form-check-label" for="question2">3
-                    </label>
-                </div>
-                <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" name="RadioQ1" id="Q2_4" value="4">
-                    <label class="form-check-label" for="question2">4
-                    </label>
-                </div>
-                <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" name="RadioQ1" id="Q2_5" value="5">
-                    <label class="form-check-label" for="question2">5
-                    </label>
-                </div>
-                <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" name="RadioQ1" id="Q2_6" value="6">
-                    <label class="form-check-label" for="question2">6
-                    </label>
-                </div>
-                <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" name="RadioQ1" id="Q2_7" value="7">
-                    <label class="form-check-label" for="question2">7
-                    </label>
-                </div>
-                <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" name="RadioQ1" id="Q2_8" value="8">
-                    <label class="form-check-label" for="question2">8
-                    </label>
-                </div>
-                <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" name="RadioQ1" id="Q2_9" value="9">
-                    <label class="form-check-label" for="question2">9
-                    </label>
-                </div>
-                <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" name="RadioQ1" id="Q2_10" value="10">
-                    <label class="form-check-label" for="question2">10
-                    </label>
-                </div>
-            </div>
-        </div>
-
-        <!-- Question 3 -->
-        <div class="row">
-            <div class="col-sm-12 text-center">
-                <div class="question">Question 3...</div>
-                <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" name="RadioQ1" id="Q1_1" value="option1">
-                    <label class="form-check-label" for="exampleRadios1">1
-                    </label>
-                </div>
-                <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" name="RadioQ1" id="Q1_2" value="option2">
-                    <label class="form-check-label" for="exampleRadios2">2
-                    </label>
-                </div>
-                <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" name="RadioQ1" id="Q1_1" value="option1">
-                    <label class="form-check-label" for="exampleRadios1">3
-                    </label>
-                </div>
-                <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" name="RadioQ1" id="Q1_2" value="option2">
-                    <label class="form-check-label" for="exampleRadios2">4
-                    </label>
-                </div>
-                <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" name="RadioQ1" id="Q1_1" value="option1">
-                    <label class="form-check-label" for="exampleRadios1">5
-                    </label>
-                </div>
-                <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" name="RadioQ1" id="Q1_2" value="option2">
-                    <label class="form-check-label" for="exampleRadios2">6
-                    </label>
-                </div>
-                <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" name="RadioQ1" id="Q1_1" value="option1">
-                    <label class="form-check-label" for="exampleRadios1">7
-                    </label>
-                </div>
-                <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" name="RadioQ1" id="Q1_2" value="option2">
-                    <label class="form-check-label" for="exampleRadios2">8
-                    </label>
-                </div>
-                <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" name="RadioQ1" id="Q1_1" value="option1">
-                    <label class="form-check-label" for="exampleRadios1">9
-                    </label>
-                </div>
-                <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" name="RadioQ1" id="Q1_2" value="option2">
-                    <label class="form-check-label" for="exampleRadios2">10
-                    </label>
-                </div>
-            </div>
-        </div>
-
-        <!-- Question 4 -->
-        <div class="row">
-            <div class="col-sm-12 text-center">
-                <div class="question">Question 4...</div>
-                <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" name="RadioQ1" id="Q1_1" value="option1">
-                    <label class="form-check-label" for="exampleRadios1">1
-                    </label>
-                </div>
-                <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" name="RadioQ1" id="Q1_2" value="option2">
-                    <label class="form-check-label" for="exampleRadios2">2
-                    </label>
-                </div>
-                <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" name="RadioQ1" id="Q1_1" value="option1">
-                    <label class="form-check-label" for="exampleRadios1">3
-                    </label>
-                </div>
-                <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" name="RadioQ1" id="Q1_2" value="option2">
-                    <label class="form-check-label" for="exampleRadios2">4
-                    </label>
-                </div>
-                <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" name="RadioQ1" id="Q1_1" value="option1">
-                    <label class="form-check-label" for="exampleRadios1">5
-                    </label>
-                </div>
-                <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" name="RadioQ1" id="Q1_2" value="option2">
-                    <label class="form-check-label" for="exampleRadios2">6
-                    </label>
-                </div>
-                <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" name="RadioQ1" id="Q1_1" value="option1">
-                    <label class="form-check-label" for="exampleRadios1">7
-                    </label>
-                </div>
-                <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" name="RadioQ1" id="Q1_2" value="option2">
-                    <label class="form-check-label" for="exampleRadios2">8
-                    </label>
-                </div>
-                <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" name="RadioQ1" id="Q1_1" value="option1">
-                    <label class="form-check-label" for="exampleRadios1">9
-                    </label>
-                </div>
-                <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" name="RadioQ1" id="Q1_2" value="option2">
-                    <label class="form-check-label" for="exampleRadios2">10
-                    </label>
-                </div>
-            </div>
-        </div>
-
-        <!-- Question 5 -->
-        <div class="row">
-            <div class="col-sm-12 text-center">
-                <div class="question">Question 5...</div>
-                <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" name="RadioQ1" id="Q1_1" value="option1">
-                    <label class="form-check-label" for="exampleRadios1">1
-                    </label>
-                </div>
-                <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" name="RadioQ1" id="Q1_2" value="option2">
-                    <label class="form-check-label" for="exampleRadios2">2
-                    </label>
-                </div>
-                <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" name="RadioQ1" id="Q1_1" value="option1">
-                    <label class="form-check-label" for="exampleRadios1">3
-                    </label>
-                </div>
-                <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" name="RadioQ1" id="Q1_2" value="option2">
-                    <label class="form-check-label" for="exampleRadios2">4
-                    </label>
-                </div>
-                <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" name="RadioQ1" id="Q1_1" value="option1">
-                    <label class="form-check-label" for="exampleRadios1">5
-                    </label>
-                </div>
-                <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" name="RadioQ1" id="Q1_2" value="option2">
-                    <label class="form-check-label" for="exampleRadios2">6
-                    </label>
-                </div>
-                <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" name="RadioQ1" id="Q1_1" value="option1">
-                    <label class="form-check-label" for="exampleRadios1">7
-                    </label>
-                </div>
-                <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" name="RadioQ1" id="Q1_2" value="option2">
-                    <label class="form-check-label" for="exampleRadios2">8
-                    </label>
-                </div>
-                <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" name="RadioQ1" id="Q1_1" value="option1">
-                    <label class="form-check-label" for="exampleRadios1">9
-                    </label>
-                </div>
-                <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" name="RadioQ1" id="Q1_2" value="option2">
-                    <label class="form-check-label" for="exampleRadios2">10
-                    </label>
-                </div>
-            </div>
-        </div>
-
-        <!-- Question 6 -->
-        <div class="row">
-            <div class="col-sm-12 text-center">
-                <div class="question">Question 6...</div>
-                <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" name="RadioQ1" id="Q1_1" value="option1">
-                    <label class="form-check-label" for="exampleRadios1">1
-                    </label>
-                </div>
-                <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" name="RadioQ1" id="Q1_2" value="option2">
-                    <label class="form-check-label" for="exampleRadios2">2
-                    </label>
-                </div>
-                <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" name="RadioQ1" id="Q1_1" value="option1">
-                    <label class="form-check-label" for="exampleRadios1">3
-                    </label>
-                </div>
-                <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" name="RadioQ1" id="Q1_2" value="option2">
-                    <label class="form-check-label" for="exampleRadios2">4
-                    </label>
-                </div>
-                <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" name="RadioQ1" id="Q1_1" value="option1">
-                    <label class="form-check-label" for="exampleRadios1">5
-                    </label>
-                </div>
-                <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" name="RadioQ1" id="Q1_2" value="option2">
-                    <label class="form-check-label" for="exampleRadios2">6
-                    </label>
-                </div>
-                <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" name="RadioQ1" id="Q1_1" value="option1">
-                    <label class="form-check-label" for="exampleRadios1">7
-                    </label>
-                </div>
-                <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" name="RadioQ1" id="Q1_2" value="option2">
-                    <label class="form-check-label" for="exampleRadios2">8
-                    </label>
-                </div>
-                <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" name="RadioQ1" id="Q1_1" value="option1">
-                    <label class="form-check-label" for="exampleRadios1">9
-                    </label>
-                </div>
-                <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" name="RadioQ1" id="Q1_2" value="option2">
-                    <label class="form-check-label" for="exampleRadios2">10
-                    </label>
-                </div>
-            </div>
-        </div>
-
-        <!-- Question 7 -->
-        <div class="row">
-            <div class="col-sm-12 text-center">
-                <div class="question">Question 7...</div>
-                <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" name="RadioQ1" id="Q1_1" value="option1">
-                    <label class="form-check-label" for="exampleRadios1">1
-                    </label>
-                </div>
-                <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" name="RadioQ1" id="Q1_2" value="option2">
-                    <label class="form-check-label" for="exampleRadios2">2
-                    </label>
-                </div>
-                <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" name="RadioQ1" id="Q1_1" value="option1">
-                    <label class="form-check-label" for="exampleRadios1">3
-                    </label>
-                </div>
-                <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" name="RadioQ1" id="Q1_2" value="option2">
-                    <label class="form-check-label" for="exampleRadios2">4
-                    </label>
-                </div>
-                <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" name="RadioQ1" id="Q1_1" value="option1">
-                    <label class="form-check-label" for="exampleRadios1">5
-                    </label>
-                </div>
-                <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" name="RadioQ1" id="Q1_2" value="option2">
-                    <label class="form-check-label" for="exampleRadios2">6
-                    </label>
-                </div>
-                <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" name="RadioQ1" id="Q1_1" value="option1">
-                    <label class="form-check-label" for="exampleRadios1">7
-                    </label>
-                </div>
-                <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" name="RadioQ1" id="Q1_2" value="option2">
-                    <label class="form-check-label" for="exampleRadios2">8
-                    </label>
-                </div>
-                <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" name="RadioQ1" id="Q1_1" value="option1">
-                    <label class="form-check-label" for="exampleRadios1">9
-                    </label>
-                </div>
-                <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" name="RadioQ1" id="Q1_2" value="option2">
-                    <label class="form-check-label" for="exampleRadios2">10
-                    </label>
-                </div>
-            </div>
-        </div>
-
-        <!-- Question 8 -->
-        <div class="row">
-            <div class="col-sm-12 text-center">
-                <div class="question">Question 8...</div>
-                <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" name="RadioQ1" id="Q1_1" value="option1">
-                    <label class="form-check-label" for="exampleRadios1">1
-                    </label>
-                </div>
-                <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" name="RadioQ1" id="Q1_2" value="option2">
-                    <label class="form-check-label" for="exampleRadios2">2
-                    </label>
-                </div>
-                <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" name="RadioQ1" id="Q1_1" value="option1">
-                    <label class="form-check-label" for="exampleRadios1">3
-                    </label>
-                </div>
-                <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" name="RadioQ1" id="Q1_2" value="option2">
-                    <label class="form-check-label" for="exampleRadios2">4
-                    </label>
-                </div>
-                <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" name="RadioQ1" id="Q1_1" value="option1">
-                    <label class="form-check-label" for="exampleRadios1">5
-                    </label>
-                </div>
-                <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" name="RadioQ1" id="Q1_2" value="option2">
-                    <label class="form-check-label" for="exampleRadios2">6
-                    </label>
-                </div>
-                <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" name="RadioQ1" id="Q1_1" value="option1">
-                    <label class="form-check-label" for="exampleRadios1">7
-                    </label>
-                </div>
-                <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" name="RadioQ1" id="Q1_2" value="option2">
-                    <label class="form-check-label" for="exampleRadios2">8
-                    </label>
-                </div>
-                <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" name="RadioQ1" id="Q1_1" value="option1">
-                    <label class="form-check-label" for="exampleRadios1">9
-                    </label>
-                </div>
-                <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" name="RadioQ1" id="Q1_2" value="option2">
-                    <label class="form-check-label" for="exampleRadios2">10
-                    </label>
-                </div>
-            </div>
-        </div>
-
-        <!-- Question 9 -->
-        <div class="row">
-            <div class="col-sm-12 text-center">
-                <div class="question">Question 9...</div>
-                <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" name="RadioQ1" id="Q1_1" value="option1">
-                    <label class="form-check-label" for="exampleRadios1">1
-                    </label>
-                </div>
-                <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" name="RadioQ1" id="Q1_2" value="option2">
-                    <label class="form-check-label" for="exampleRadios2">2
-                    </label>
-                </div>
-                <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" name="RadioQ1" id="Q1_1" value="option1">
-                    <label class="form-check-label" for="exampleRadios1">3
-                    </label>
-                </div>
-                <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" name="RadioQ1" id="Q1_2" value="option2">
-                    <label class="form-check-label" for="exampleRadios2">4
-                    </label>
-                </div>
-                <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" name="RadioQ1" id="Q1_1" value="option1">
-                    <label class="form-check-label" for="exampleRadios1">5
-                    </label>
-                </div>
-                <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" name="RadioQ1" id="Q1_2" value="option2">
-                    <label class="form-check-label" for="exampleRadios2">6
-                    </label>
-                </div>
-                <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" name="RadioQ1" id="Q1_1" value="option1">
-                    <label class="form-check-label" for="exampleRadios1">7
-                    </label>
-                </div>
-                <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" name="RadioQ1" id="Q1_2" value="option2">
-                    <label class="form-check-label" for="exampleRadios2">8
-                    </label>
-                </div>
-                <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" name="RadioQ1" id="Q1_1" value="option1">
-                    <label class="form-check-label" for="exampleRadios1">9
-                    </label>
-                </div>
-                <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" name="RadioQ1" id="Q1_2" value="option2">
-                    <label class="form-check-label" for="exampleRadios2">10
-                    </label>
-                </div>
-            </div>
-        </div>
-
-        <!-- Question 10 -->
-        <div class="row">
-            <div class="col-sm-12 text-center">
-                <div class="question">Question 10...</div>
-                <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" name="RadioQ1" id="Q1_1" value="option1">
-                    <label class="form-check-label" for="exampleRadios1">1
-                    </label>
-                </div>
-                <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" name="RadioQ1" id="Q1_2" value="option2">
-                    <label class="form-check-label" for="exampleRadios2">2
-                    </label>
-                </div>
-                <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" name="RadioQ1" id="Q1_1" value="option1">
-                    <label class="form-check-label" for="exampleRadios1">3
-                    </label>
-                </div>
-                <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" name="RadioQ1" id="Q1_2" value="option2">
-                    <label class="form-check-label" for="exampleRadios2">4
-                    </label>
-                </div>
-                <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" name="RadioQ1" id="Q1_1" value="option1">
-                    <label class="form-check-label" for="exampleRadios1">5
-                    </label>
-                </div>
-                <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" name="RadioQ1" id="Q1_2" value="option2">
-                    <label class="form-check-label" for="exampleRadios2">6
-                    </label>
-                </div>
-                <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" name="RadioQ1" id="Q1_1" value="option1">
-                    <label class="form-check-label" for="exampleRadios1">7
-                    </label>
-                </div>
-                <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" name="RadioQ1" id="Q1_2" value="option2">
-                    <label class="form-check-label" for="exampleRadios2">8
-                    </label>
-                </div>
-                <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" name="RadioQ1" id="Q1_1" value="option1">
-                    <label class="form-check-label" for="exampleRadios1">9
-                    </label>
-                </div>
-                <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" name="RadioQ1" id="Q1_2" value="option2">
-                    <label class="form-check-label" for="exampleRadios2">10
-                    </label>
-                </div>
-            </div>
-        </div>
-
-        <div class="text-center">
-            <button id="submitBtn" type="submit" class="btn btn-primary btn-lg">Submit</button>
-        </div>
-
-        </form>
-
     </div>
 
 </body>
