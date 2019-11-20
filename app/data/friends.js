@@ -1,0 +1,99 @@
+var friends = [
+{
+    "name":"Mickey Mouse",
+    "photo":"https://partycity6.scene7.com/is/image/PartyCity/_pdp_sq_?$_1000x1000_$&$product=PartyCity/294138",
+    "scores":[
+        5,
+        1,
+        4,
+        4,
+        5,
+        1,
+        2,
+        5,
+        4,
+        1
+      ]
+  },
+  {
+    "name":"Homer Simpson",
+    "photo":"http://interactive.nydailynews.com/2016/05/simpsons-quiz/img/simp1.jpg",
+    "scores":[
+        5,
+        1,
+        4,
+        4,
+        5,
+        1,
+        2,
+        5,
+        4,
+        1
+      ]
+  },
+  {
+    "name":"SpongeBob SquarePants",
+    "photo":"https://i.pinimg.com/originals/87/64/ce/8764cefa9f88169972a8a20f2a69e8ce.jpg",
+    "scores":[
+        5,
+        1,
+        4,
+        4,
+        5,
+        1,
+        2,
+        5,
+        4,
+        1
+      ]
+  },
+  {
+    "name":"Eric Cartman",
+    "photo":"http://southparkstudios.mtvnimages.com/shared/characters/kids/eric-cartman.png",
+    "scores":[
+        5,
+        1,
+        4,
+        4,
+        5,
+        1,
+        2,
+        5,
+        4,
+        1
+      ]
+  },
+  {
+    "name":"Popeye",
+    "photo":"https://www.al.com/resizer/lp5HFU1ZRi6LGLRwOKuhcquK7oo=/1280x0/smart/advancelocal-adapter-image-uploads.s3.amazonaws.com/image.al.com/home/bama-media/width2048/img/strange-alabama/photo/popeyejpg-ccb30fecf19b566e.jpg",
+    "scores":[
+        5,
+        1,
+        4,
+        4,
+        5,
+        1,
+        2,
+        5,
+        4,
+        1
+      ]
+  },
+  {
+    "name":"Patrick Star",
+    "photo":"https://upload.wikimedia.org/wikipedia/en/thumb/3/33/Patrick_Star.svg/1200px-Patrick_Star.svg.png",
+    "scores":[
+        5,
+        1,
+        4,
+        4,
+        5,
+        1,
+        2,
+        5,
+        4,
+        1
+      ]
+  }
+
+];
