@@ -1,18 +1,18 @@
-var friends = [
+var friendsArray = [
 {
     "name":"Mickey Mouse",
     "photo":"https://partycity6.scene7.com/is/image/PartyCity/_pdp_sq_?$_1000x1000_$&$product=PartyCity/294138",
     "scores":[
+        1,
+        3,
         5,
         1,
-        4,
-        4,
         5,
         1,
+        5,
         2,
-        5,
         4,
-        1
+        3
       ]
   },
   {
@@ -21,62 +21,62 @@ var friends = [
     "scores":[
         5,
         1,
+        2,
         4,
-        4,
-        5,
         1,
+        5,
         2,
         5,
-        4,
-        1
+        2,
+        4
       ]
   },
   {
     "name":"SpongeBob SquarePants",
     "photo":"https://i.pinimg.com/originals/87/64/ce/8764cefa9f88169972a8a20f2a69e8ce.jpg",
     "scores":[
-        5,
-        1,
-        4,
-        4,
-        5,
-        1,
         2,
-        5,
         4,
-        1
+        5,
+        1,
+        5,
+        1,
+        5,
+        3,
+        4,
+        2
       ]
   },
   {
     "name":"Eric Cartman",
     "photo":"http://southparkstudios.mtvnimages.com/shared/characters/kids/eric-cartman.png",
     "scores":[
-        5,
-        1,
         4,
-        4,
-        5,
         1,
         2,
         5,
-        4,
-        1
+        2,
+        1,
+        2,
+        2,
+        2,
+        4
       ]
   },
   {
-    "name":"Popeye",
-    "photo":"https://www.al.com/resizer/lp5HFU1ZRi6LGLRwOKuhcquK7oo=/1280x0/smart/advancelocal-adapter-image-uploads.s3.amazonaws.com/image.al.com/home/bama-media/width2048/img/strange-alabama/photo/popeyejpg-ccb30fecf19b566e.jpg",
+    "name":"Squidward",
+    "photo":"https://upload.wikimedia.org/wikipedia/en/thumb/8/8f/Squidward_Tentacles.svg/1200px-Squidward_Tentacles.svg.png",
     "scores":[
-        5,
-        1,
-        4,
-        4,
-        5,
+        3,
+        3,
         1,
         2,
-        5,
-        4,
-        1
+        1,
+        1,
+        1,
+        2,
+        2,
+        2
       ]
   },
   {
@@ -85,15 +85,17 @@ var friends = [
     "scores":[
         5,
         1,
-        4,
-        4,
         5,
+        3,
+        4,
         1,
         2,
         5,
-        4,
-        1
+        2,
+        4
       ]
   }
 
 ];
+
+module.exports = friendsArray;
