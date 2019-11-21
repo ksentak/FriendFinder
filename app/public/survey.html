@@ -10,6 +10,12 @@
     <!-- Linking Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 </head>
 
 <body>
@@ -37,7 +43,8 @@
                 </div>
 
                 <h6>Answer the next 10 questions using the following scale:
-                    <br>1 - Strongly Disagree, 2 - Somewhat Disagree, 3 - Neutral, 4 - Somewhat Agree, 5 - Strongly Agree</h6>
+                    <br>1 - Strongly Disagree, 2 - Somewhat Disagree, 3 - Neutral, 4 - Somewhat Agree, 5 - Strongly
+                    Agree</h6>
                 <!-- Question 1 -->
                 <div class="form-group">
                     <label for="q1">You are a person that enjoys eating doughnuts:</label>
@@ -159,13 +166,38 @@
                 </div>
 
                 <div class="text-center">
-                    <button id="submitBtn" type="submit" class="btn btn-primary btn-lg">Submit</button>
-                </div>
+                    <button type="button" id="submit" class="btn btn-primary" data-toggle="modal"
+                        data-target="#myModal">Submit
+                    </button>
 
+                    <!-- The Modal -->
+                    <div class="modal" id="myModal">
+                        <div class="modal-dialog modal-dialog-centered">
+                            <div class="modal-content">
+
+                                <!-- Modal Header -->
+                                <div class="modal-header">
+                                    <h4 class="modal-title">Your character best friend is:</h4>
+                                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                </div>
+
+                                <!-- Modal body -->
+                                <div class="modal-body">
+                                    Insert image from array here!!!
+                                </div>
+
+                                <!-- Modal footer -->
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </form>
         </div>
     </div>
-
 </body>
 
 </html>
