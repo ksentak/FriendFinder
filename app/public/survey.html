@@ -183,7 +183,8 @@
 
                                 <!-- Modal body -->
                                 <div class="modal-body">
-                                    Insert image from array here!!!
+                                    <h2 id="buddyName"></h2>
+                                    <img id="buddyImg" src="">
                                 </div>
 
                                 <!-- Modal footer -->
@@ -228,7 +229,10 @@
 
         $.post("/api/friends", newFriend,
         function(data) {
-
+            $("#buddyName").text(data.name);
+          
+            $("#buddyImg").attr("src", data.photo);
+            
             // Clears data
             $("#name").val(""),
 	        $("#photo").val(""),
