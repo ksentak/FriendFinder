@@ -7,11 +7,11 @@ module.exports = function(app) {
 
   app.post('/api/friends', function(req,res) {
 
-    var newFriend = req.body;
+    var friend = req.body;
     
     // ParseInt newFriend scores
-    for(var i = 0; i < newFriend.scores.length; i++) {
-      newFriend.scores[i] = parseInt(newFriend.scores[i]);
+    for(var i = 0; i < friend.scores.length; i++) {
+      friend.scores[i] = parseInt(friend.scores[i]);
     }
 
     // Max Difference is defined as being the most points away and best friend has an identical score
@@ -22,7 +22,7 @@ module.exports = function(app) {
       var totalDifference = 0;
       
       for (var j = 0; j < friends[i].scores.length; j++) {
-        var difference = Math.abs(newFriend.scores[j] - friends[i].scores[j]);
+        var difference = Math.abs(friend.scores[j] - friends[i].scores[j]);
         totalDifference += difference;
       }
 
@@ -32,7 +32,9 @@ module.exports = function(app) {
       }
     }
 
-    friends.push(newFriend);
+    friends.push(friend);
+
+    console.log(friends);
 
     res.json(friends[bestFriend]);
 
